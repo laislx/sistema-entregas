@@ -1,9 +1,9 @@
 package entidades;
 public class Entrega{
-    private String situacao;
-    public String dataPrevista;
-    private Transportadora transportadoraResponsavel;
-    private int codigoDeRastreio;
+    protected String situacao;
+    protected String dataPrevista;
+    protected Transportadora transportadoraResponsavel;
+    protected int codigoDeRastreio;
 
     public Entrega(String situacao, String dataPrevista, Transportadora transportadoraResponsavel, int codigoDeRastreio){
         this.situacao = situacao;
