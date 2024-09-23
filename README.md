@@ -1,4 +1,4 @@
-Sistema de entregas
+Sistema de agendamento de entregas
 
 Descrição:
 
