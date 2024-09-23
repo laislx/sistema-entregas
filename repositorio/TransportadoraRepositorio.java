@@ -1,4 +1,4 @@
-
+package repositorio;
 
 import java.util.List;
 
@@ -16,12 +16,18 @@ public class TransportadoraRepositorio implements ITransportadora {
     public void atualizarTransportadora(Transportadora transportadora){}
 
     @Override
-    public Transportadora buscarTransportadora(Transportadora cnpjTransportadora){
+    public Transportadora buscarTransportadora(String cnpjTransportadora){
         return null;
     }
 
     @Override
     public List<Transportadora> todosTransportadora(){
         return null;
+    }
+
+    @Override
+    public Transportadora buscaTransportadora(String cnpjTransportadora) {
+        
+        throw new UnsupportedOperationException("Unimplemented method 'buscaTransportadora'");
     }
 }

@@ -1,18 +1,20 @@
 package entidades;
 public class Transportadora {
-   private String nomeDaTransportadora;
-   private String cnpj;
+   private static String nomeDaTransportadora;
+   private static String cnpj;
+   
    
    public Transportadora (String nomeDaTransportadora, String cnpj){
-    this.nomeDaTransportadora = nomeDaTransportadora;
+    Transportadora.nomeDaTransportadora = nomeDaTransportadora;
     this.cnpj = cnpj;
    }
-   public String GetNomeDaTransportadora(){
+   public static String GetNomeDaTransportadora(){
     return nomeDaTransportadora;
    }
-   public String getCnpj(){
+   public static String getCnpj(){
     return cnpj;
    }
+   
    public void setNomeDaTransportadora (String nomeDaTransportadora){
     this.nomeDaTransportadora = nomeDaTransportadora;
    }
